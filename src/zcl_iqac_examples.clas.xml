@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>APRESS Improving Code Quality Eaxmples</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>116</KEY>
+     <ENTRY>1. Orders must not be delivered unless pricing is OK.</ENTRY>
+     <LENGTH>106</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>117</KEY>
+     <ENTRY>   Please check details and adjust if necessary.</ENTRY>
+     <LENGTH>96</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>118</KEY>
+     <ENTRY>2. Have you obtained authorisation and entered details on</ENTRY>
+     <LENGTH>114</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>119</KEY>
+     <ENTRY>   to the Order?</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>120</KEY>
+     <ENTRY>If you have problems with the above please contact your</ENTRY>
+     <LENGTH>110</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>121</KEY>
+     <ENTRY>coordinator or responsible manager immediately.</ENTRY>
+     <LENGTH>94</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>CONTACT_INSURANCE_AGENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Contact Insurance Agent</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>DERIVE_MATERIAL_2_BOM_LINK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Derive Material to BOM Link</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>FAVORITE_DRINK_OF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Given User, Return Favorite Drink</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>FAVORITE_PUB_OF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Given User, Return Favorite Pub</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>GET_DRUNK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Drunk</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L01_01_ELEPHANT_FUN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 01.01 - Deriving An Elephant&apos;s Trunk Size</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L01_02_CIRCUS_RUNAWAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 01.02 - Running Away from The Circus</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L01_04_GETTING_DRUNK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 01.04 - Getting Drunk in an OO Fashion</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L02_18_AVOID_DUPLICATE_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 02.18 - Alternative to Cutting and Pasting</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L03_06_TEXT_SYMBOLS_BAD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 03.06 - How to use Text Symbols (Bad Example)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L03_07_TEXT_SYMBOLS_GOOD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 03.07 - How to use Text Symbols (Good Example)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L03_09_MISLEADING_DECLARATIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 03.09 - Misleading Data Declarations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L03_24_BAD_CONSTANTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 03.24 - Bad Constant Names</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L04_02_BAD_RETURNING_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 04.02 - Incorrectly Typed RETURNING Parameter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L04_04_GOOD_RETURNING_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 04.03 - Corrected Code from Listing 04.02</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L04_18_FIELD_SYMBOLS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 04.18 - Problem with IS ASSIGNED</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L04_19_CATCHING_EXCEPTIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 04.19 - Catching an Exception</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L04_20_SELF_REPAIR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 04.20 - Recovering from an Unexpected Situation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L05_05_INTERNAL_BUFFERING_V1</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 05.05 - Projects – Using Internal Buffering – V1</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L05_06_INTERNAL_BUFFERING_V2</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 05.06 - Projects – Using Internal Buffering – V2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L05_07_STUTTERING_01</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 05.07 - Getting all Related Entries</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L05_08_STUTTERING_02</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 05.08 - Ensuring a Unique Selection List</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L05_09_EXISTENCE_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 05.09 - Existence Checks</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L05_30_SET_BUFFER_SIZE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 05.30 - Setting the maximum buffer size</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L05_31_PREFILL_EKKO_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 05.31 - Prefilling the EKKO Buffer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L05_32_SELECT_STAR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 05.32 - Two ways of reading fields from table MARA</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L06_04_ALV_FILTER_FIX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 06.04 - Forcing an ALV column to accept lower case</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>L10_XX_CUSTOM_ATC_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Listing 10.XX - Checking for SY-SUBRC IS INITIAL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>MO_ALV_GRID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basis Class for Simple Tables</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>MO_COLUMN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Column Description of Simple, Two-Dimensional Tables</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>MO_COLUMNS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Columns in Simple, Two-Dimensional Tables</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>M_TYP_VMAST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MAST plus flag plus POSNR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IQAC_EXAMPLES</CLSNAME>
+     <CMPNAME>TALK_ON_THE_HOUSE_PHONE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Talk on the house phone</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Pattern to Show Table Key</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZIQAC_SHOW_TABLE_KEYTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZIQAC_SHOW_TABLE_KEY</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZIQAC_TABLEKEY_EDITOR_EXIT</FUNCNAME>
+     <SHORT_TEXT>Show table attributes and key</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>BUFFER</PARAMETER>
+       <TYP>RSWSOURCET</TYP>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>CANCELLED</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BUFFER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP Source</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CANCELLED</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
